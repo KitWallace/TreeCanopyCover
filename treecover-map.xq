@@ -76,7 +76,7 @@ This Tree Canopy Cover (TCC) data is based on our work with <a class="external" 
                 
                 <div><h2>Deprivation Score</h2>The Deprivation score for wards is based on 2015 data from <a class="external" target="_blank"  href="https://www.bristol.gov.uk/statistics-census-information/deprivation">Bristol City Council</a> by postcode. It has been re-aggregated for the current ward boundaries. The lower the score, the higher the level of deprivation.</div>
                 <hr/>
-                <div> A <a class="external" target="_blank" href="https://bristoltreeforum.org/"><img src="assets/icons/BTF128.png" width="50"/></a> production.  Code and data on <a href="https://github.com/KitWallace/TCC">GitHub</a>.</div>
+                <div> A <a class="external" target="_blank" href="https://bristoltreeforum.org/"><img src="assets/icons/BTF128.png" width="50"/></a> production.  Code and data on <a href="https://github.com/KitWallace/TreeCanopyCover">GitHub</a>.</div>
            
         </div>   
     </body>
