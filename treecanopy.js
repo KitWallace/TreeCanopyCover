@@ -266,7 +266,7 @@ function subsite_links(region) {
 
 $(document).ready(function() {   
     initialize ();
-    var url = "https://bristoltrees.space/trees/ajax/get-region-data.xq";
+    var url = "canopy-data.js";
     load_regions(url);
   });
   
