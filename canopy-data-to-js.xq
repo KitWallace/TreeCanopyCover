@@ -43,7 +43,7 @@ return
                if ($dep) then element deprivation {$dep} else (),
                element analysis {
                    for $benefit in $benefits/benefit
-                   let $tonnes := round($canopy * 10000 * $benefit/factor div 1000)   
+                   let $tonnes := round-half-to-even($canopy * 10000 * $benefit/factor div 1000,2)   
                    let $money :=round-half-to-even($tonnes * $benefit/pounds,3)
                    return
                      element benefit {
