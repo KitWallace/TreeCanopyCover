@@ -5,7 +5,7 @@
         <html>CO</html>
         <name>Carbon monoxide</name>
         <period>/yr</period>
-        <factor>0.0005</factor>
+        <factor source="Hirabayashi - urban">0.000127</factor>
         <pounds>0</pounds>
     </benefit>
     <benefit>
@@ -13,7 +13,7 @@
         <html>NO&lt;sub&gt;2&lt;/sub&gt;</html>
         <name>Nitrogen dioxide</name>
         <period>/yr</period>
-        <factor>0.001597</factor>
+        <factor source="Hirabayashi - urban">0.0007</factor>
         <pounds source="DEFRA-AQ-2019">6199</pounds>
     </benefit>
     <benefit>
@@ -21,25 +21,23 @@
         <html>O&lt;sub&gt;3&lt;/sub&gt;</html>
         <name>Ozone</name>
         <period>/yr</period>
-        <factor>0.0056</factor>
+        <factor source="Hirabayashi - urban">0.0054</factor>
         <pounds>0</pounds>
     </benefit>
-<!-- removed until valid figure can be located
     <benefit>
         <code>PM10</code>
         <html>PM&lt;sub&gt;10&lt;/sub&gt;</html>
         <name>Particulate Matter 2.5 to 10 microns</name>
         <period>/yr</period>
-        <factor>0</factor>
+        <factor source="Hirabayashi - urban">0.001534</factor>
         <pounds>33713</pounds>
     </benefit>
--->
     <benefit>
         <code>PM2.5</code>
         <html>PM&lt;sub&gt;2.5&lt;/sub&gt;</html>
         <name>Particulate Matter &lt; 2.5 microns</name>
         <period>/yr</period>
-        <factor>0.000377</factor>
+        <factor source="Hirabayashi - urban">0.000276</factor>
         <pounds source="DEFRA-AQ-2019">105836</pounds>
     </benefit>
     <benefit>
@@ -47,7 +45,7 @@
         <html>SO&lt;sub&gt;2&lt;/sub&gt;</html>
         <name>Sulphur dioxide</name>
         <period>/yr</period>
-        <factor>0.347</factor>
+        <factor source="Hirabayashi - urban">0.000344</factor>
         <pounds source="DEFRA-AQ-2019">6273</pounds>
     </benefit>
     <benefit>
