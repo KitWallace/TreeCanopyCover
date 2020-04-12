@@ -24,6 +24,7 @@
         <factor>0.0056</factor>
         <pounds>0</pounds>
     </benefit>
+<!-- removed until valid figure can be located
     <benefit>
         <code>PM10</code>
         <html>PM&lt;sub&gt;10&lt;/sub&gt;</html>
@@ -32,6 +33,7 @@
         <factor>0</factor>
         <pounds>33713</pounds>
     </benefit>
+-->
     <benefit>
         <code>PM2.5</code>
         <html>PM&lt;sub&gt;2.5&lt;/sub&gt;</html>
