@@ -2,7 +2,7 @@ xquery version "3.0";
 declare variable $local:centre := (51.47,-2.594697);
 declare variable $local:root := "E06000023";
 declare variable $local:googlekey  := "AIzaSyB-sB9Nwqkh-imfUd1-w3_lz4KFhL-_VqU";
-declare variable $local:benefit-factors := doc("/db/apps/trees/tree-benefits/benefit-factors.xml")/benefits;
+declare variable $local:benefit-factors := doc("benefit-factors.xml")/benefits;
 
 declare option exist:serialize "method=xhtml media-type=text/html";
 
@@ -20,13 +20,13 @@ declare option exist:serialize "method=xhtml media-type=text/html";
               var centre =  new google.maps.LatLng({$local:centre[1]},{$local:centre[2]});
               var root ='{$local:root}';
         </script>
-         <script type="text/javascript" src="/trees/javascript/chloropeth.js"></script> 
+         <script type="text/javascript" src="treecanopy.js"></script> 
          <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="icon" href="assets/icons/BTF128.png" sizes="128x128" />
-    <link rel="shortcut icon" type="image/png" href="assets/icons/BTF128.png"/>
-    <link rel="stylesheet" type="text/css" href="assets/tcc.css" media="screen" ></link>
-    <link rel="stylesheet" type="text/css" href="assets/tcc-phone.css" media="print" ></link>
-    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="assets/tcc-phone.css"  />
+    <link rel="shortcut icon" type="image/png" href="BTF128.png"/>
+    <link rel="stylesheet" type="text/css" href="tcc.css" media="screen" ></link>
+    <link rel="stylesheet" type="text/css" href="tcc-phone.css" media="print" ></link>
+    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="tcc-phone.css"  />
    
     </head>
         
@@ -62,7 +62,7 @@ This Tree Canopy Cover (TCC) data is based on our work with <a class="external" 
                 <h2>Conversion factors and benefit values used</h2>
                 <div>The prediction of environmental impacts from only an estimate of the tree canopy area uses US-based factors so is not calibrated for UK conditions. In that context, there is considerable uncertainly in extrapolating the data to the UK.  The factors are shown below but the computed values derived from them must be treated with great scepticism because of this.
                </div>
-               <div>Estimates of the monetary benefits of those impacts is also subject to debate.  The values shown below are based on those suggested by <a href="https://www.forestresearch.gov.uk/research/i-tree-eco/i-tree-resources/reporting-an-i-tree-eco-project/">Forestry Research</a> which uses figures from the UK government <a  class="external" target="_blank" href="https://www.gov.uk/guidance/air-quality-economic-analysis">Air Quality: economic analysis</a> [now withdrawn]. The figures have wide ranges of sensitivity.
+               <div>Estimates of the monetary benefits of those impacts is also subject to debate.  The values shown below are based on those suggested by <a class="external" target="_blank"  href="https://www.forestresearch.gov.uk/research/i-tree-eco/i-tree-resources/reporting-an-i-tree-eco-project/">Forestry Research</a> which uses figures from the UK government <a  class="external" target="_blank" href="https://www.gov.uk/guidance/air-quality-economic-analysis">Air Quality: economic analysis</a> [now withdrawn]. The figures have wide ranges of sensitivity.
                </div>
                 <table> 
                      <tr><th>Component</th><th>description</th><th>kg/m<sup>2</sup>/yr</th><th>£ per tonne</th></tr>
